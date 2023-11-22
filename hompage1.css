@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    flex: 200 fr;
+    height: 150px;
+}
+.left-section{
+    background-color: red;
+}
+.right-section{
+    background-color: yellow;
+}

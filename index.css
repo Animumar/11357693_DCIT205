@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(25, 25, 126);
+}
+
+#overview{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr;
+ }  
+ #intro-image{
+    width: 500px;
+ }
+ #intro-text{
+    font-size: 20px;
+ }
+ h1{
+    background-color: blue;
+    width: 500px;
+    color: white;
+    padding: 15px;
+    
+   
+ }
+ #title-cover{
+   width: 800px;
+   height: 300px;
+   position: relative;
+
+ }
+
+
+ 
+  #welcome-text{
+   position: absolute;
+   bottom: 10px;
+  }
+ 
+ #mainbody{
+    display: flex;
+    flex-direction: row;
+ }
+ #sidebar{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 400px;
+    
+
+ }
+ #sidebar button {
+    margin: 10px;
+    font-size: 25px;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+ }
+ #sidebar div{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    
+ }
+ #department-logo{
+    background-color: white;
+    
+  
+ }
+ #title-cover{
+    position: relative;
+ }
+ #footer{
+    background-color: blue;
+    color: white;
+
+ }
+ .news img {
+    width: 200px;
+    display: inline;
+ }
+ 
+ h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+ }
+ #contact-details{
+    display: flex;
+    justify-content: space-around;  
+    
+
+ }
