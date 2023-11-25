@@ -4,6 +4,14 @@
     
     <title>Document</title>
     <style>
+         body{
+    background-color:  #577ba5;
+}
+
+#department-logo{
+    background-color: white;
+    margin: 10px;
+}
       div.background {
   background: url(study-group-african-people.jpg);
   background-size: 100%;
@@ -33,10 +41,16 @@ div.transbox {
     margin-bottom: 20px;
        }
        #menu-bar button{
-    font-size: 20px;
+        font-size: 20px;
     background: none;
     border: none;
+    cursor: pointer;
+    padding: 10px;
+
 }
+#menu-bar button:hover{
+        text-decoration: underline;
+       }
 #programme-offered{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,8 +78,9 @@ div.transbox {
 #footer{
     background-color: blue;
     color: white;
-}
-h3{
+
+ }
+ #footer h3{
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
@@ -81,26 +96,29 @@ h3{
 <body>
   
     <div>
-        <img src="comScience_logo.png"  id="department-logo">
-        </div>
+        <a href="home.html"> <img src="comScience_logo.png" alt="" id="department-logo"></a>
+    </div>
         <div id="menu-bar">
-            <div>
-                <button>HOME</button>
+            <div >
+                <a href="home.html"><button>HOME</button></a>
+            </div>
+            <div >
+                <a href="courses.html"><button>ACADEMIC</button></a>
             </div>
             <div>
-                <button>ACADEMIC</button>
+                <a href="about1.html"><button>ABOUT</button></a>
             </div>
             <div>
-                <button>ABOUT</button>
+               <a href="admission.html"> <button>ADMISSION</button></a>
             </div>
             <div>
-                <button>ADMISSION</button>
+                <a href="news.html"><button>NEWS AND EVENTS</button></a>
             </div>
             <div>
-                <button>PEOPLE</button>
+                <a href="people.html"><button>PEOPLE</button></a>
             </div>
             <div>
-                <button>COMPSSA</button>
+                <a href="compssa.html"><button>COMPSSA</button></a>
             </div>
         </div>
         <div class="background">
@@ -115,12 +133,12 @@ h3{
             <div>
                 <p class="Degree-type">Short courses</p>
                 <p class="about-degree">Our eight week intensive certificate course is open to senior high school graduates , tertiary students ,school graduates ,workers and the general public</p>
-                <a href=""> Read More</a>
+                <a href="short-courses.html"> Read More</a>
             </div>
             <div>
                  <p class="Degree-type"> Undergraduate Programmes </p> 
                  <p class="about-degree">Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science Degree</p>
-                 <a href=""> Read More</a>
+                 <a href="undergrad.html"> Read More</a>
             </div>
             <div>
                 <p class="Degree-type"> Mphil and Msc Programmes</p>
@@ -149,7 +167,11 @@ h3{
                    <p>University Of Ghana, Legon Campus</p> 
                     <p>Opposite Mathematics Department</p>
                 </div>
+                <div>
+                    <img src="comScience_logo.png" alt="" style="width: 400px; background-color: white;">
+                </div>
             </div>
+        </div>
         </div>
        
 </body>

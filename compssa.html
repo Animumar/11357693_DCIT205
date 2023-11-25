@@ -9,6 +9,7 @@
 }
 #department-logo{
     background-color: white;
+    margin: 10px;
 }
 .menu-bar{
     display: flex;
@@ -21,7 +22,14 @@
     font-size: 20px;
     background: none;
     border: none;
+    cursor: pointer;
+    padding: 10px;
+
+
 }
+.menu-bar button:hover{
+        text-decoration: underline;
+       }
 #page-title{
     display: flex;
     flex-direction: column;
@@ -79,25 +87,30 @@ h2{
 </head>
 <body>
     <div>
-        <img src="comScience_logo.png" alt="">
+        <a href="home.html"> <img src="comScience_logo.png" alt="" id="department-logo"></a>
     </div>
     <div class="menu-bar">
-        <div>
-            <button>ACADEMIC</button>
+        <div >
+            <a href="home.html"><button>HOME</button></a>
+        </div>
+        <div >
+            <a href="courses.html"><button>ACADEMIC</button></a>
         </div>
         <div>
-            <button>ABOUT</button>
+            <a href="about1.html"><button>ABOUT</button></a>
         </div>
         <div>
-            <button>ADMISSION</button>
+           <a href="admission.html"> <button>ADMISSION</button></a>
         </div>
         <div>
-            <button>PEOPLE</button>
+            <a href="news.html"><button>NEWS AND EVENTS</button></a>
         </div>
         <div>
-            <button>COMPSSA</button>
+            <a href="people.html"><button>PEOPLE</button></a>
         </div>
-
+        <div>
+            <a href="compssa.html"><button>COMPSSA</button></a>
+        </div>
     </div>
     <div id="page-title">
         <img src="download.png" alt="">
