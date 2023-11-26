@@ -42,6 +42,15 @@ body{
     flex: 700px 1fr;
     font-size: 18px;
 }
+#mainbody{
+    background-color: rgb(39, 57, 134);
+     box-shadow: 0 0 20px #fff;
+     padding: 10px;
+     border: 2px solid black;
+    color: rgb(96, 211, 211);
+    text-align: center;
+    margin: 20px;
+}
 #h3-heading div{
       border: 2px solid black;
       margin: 10px;

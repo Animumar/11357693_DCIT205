@@ -3,8 +3,146 @@
 <head>
     
     <title>Document</title>
+    <style>
+         body{
+    background-color:  #577ba5;
+}
+#department-logo{
+    background-color: white;
+    margin: 10px;
+}
+         .menu-bar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(231, 231, 152);
+    margin-bottom: 20px;
+       }
+       .menu-bar button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+       }
+       .menu-bar button:hover{
+        text-decoration: underline;
+       }
+       #ongoing-event ,#upcoming-event div{
+        background-color: rgb(39, 57, 134);
+     box-shadow: 0 0 20px #fff;
+     padding: 10px;
+     border: 2px solid black;
+    color: rgb(96, 211, 211);
+    text-align: center;
+    margin: 20px;
+       }
+       #ongoing-event a,#upcoming-event div a{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+       }
+       #ongoing-event img{
+        height: 500px;
+        width: 100%;
+        margin: 10px;
+       }
+       #upcoming-event{
+        display: flex;
+        height: 600px;
+       }
+       #upcoming-event div img{
+        width: 400px;
+       }
+
+       #footer{
+    background-color: blue;
+    color: white;
+
+ }
+ #footer h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+ }
+ #contact-details{
+    display: flex;
+    justify-content: space-around;  
+    
+
+ }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <a href="home.html"> <img src="comScience_logo.png" alt="" id="department-logo"></a>
+     </div>
+     <div class="menu-bar">
+         <div >
+             <a href="home.html"><button>HOME</button></a>
+         </div>
+         <div >
+             <a href="courses.html"><button >ACADEMIC</button></a>
+         </div>
+         <div>
+             <a href="about1.html"><button>ABOUT</button></a>
+         </div>
+         <div>
+            <a href="admission.html"> <button>ADMISSION</button></a>
+         </div>
+         <div>
+             <a href="news.html"><button style="background-color: blue;
+                color:rgb(231, 231, 152) ;">NEWS AND EVENTS</button></a>
+         </div>
+         <div>
+             <a href="people.html"><button >PEOPLE</button></a>
+         </div>
+         <div>
+             <a href="compssa.html"><button>COMPSSA</button></a>
+         </div>
+         </div> 
+
+         <div id="ongoing-event">
+            <img src="WhatsApp Image 2023-11-17 at 09.55.10_3ed29c75.jpg" alt="">
+         <a href="">JOIN THE NOVEMBER CHALLENGE BY COMPSSA</a>
+         </div>
+         <div id="upcoming-event">
+            <div id="event1">
+                <img src="_MG_9354.jpeg" alt="">
+                <p><a href="">University Of Ghana in Collaboration with Nestle Gh Organises a hackaton for students on the 24 <sup>th</sup> of December, 2023</a>
+                </p>
+            </div>
+
+            <div id="event2">
+                <img src="WhatsApp Image 2023-11-26 at 11.22.40_749c8fb8.jpg" alt="">
+                <p>
+                    <a href="">JOIN US THIS SATURDAY AT THE CHINESE LAB FOR AN EXCITING PROGRAM "CODE AND COCKTAI"
+                        DONT MISS IT!!!
+                    </a>
+                </p>
+            </div>
+         </div>
+         <div id="footer">
+            <h3>Contact Us</h3>
+            <div id="contact-details">
+                <div style="margin-right: 500px;">
+                    <h4>Phone and Email</h4>
+                    <p> &#9990; +233 501 382 035</p>
+                    <p> &#9990; +233 559 145 698</p>
+                    <p> &#9993; dcs@ug.edu.gh</p>
+                    
+                </div>
+                <div>
+                    <h4>Location</h4>
+                   <p>University Of Ghana, Legon Campus</p> 
+                    <p>Opposite Mathematics Department</p>
+                </div>
+                <div>
+                    <img src="comScience_logo.png" alt="" style="width: 400px; background-color: white;">
+                </div>
+            </div>
+        </div>
 </body>
 </html>

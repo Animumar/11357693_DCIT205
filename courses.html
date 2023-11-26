@@ -51,6 +51,13 @@ div.transbox {
 #menu-bar button:hover{
         text-decoration: underline;
        }
+#page-title p{
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: underline;
+        color: wheat;
+       }
+      
 #programme-offered{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,16 +67,24 @@ div.transbox {
     align-items: center;
 }
  #programme-offered div{
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    background-color: rgb(39, 57, 134);
+     box-shadow: 0 0 20px #fff;
+     padding: 10px;
+     border: 2px solid black;
+    color: rgb(96, 211, 211);
+    text-align: center;
+    margin: 20px;
 }
+#programme-offered a{
+    color: wheat;
+} 
 .Degree-type{
             background-color: rgb(226, 206, 92);
             width: fit-content;
             padding: 10px;
             font-size: 25px;
             font-weight: bold;
+            color: black;
 }
 .about-degree{
     font-size: 20px;
@@ -103,7 +118,8 @@ div.transbox {
                 <a href="home.html"><button>HOME</button></a>
             </div>
             <div >
-                <a href="courses.html"><button>ACADEMIC</button></a>
+                <a href="courses.html"><button style="background-color: blue;
+                    color:rgb(231, 231, 152) ;">ACADEMIC</button></a>
             </div>
             <div>
                 <a href="about1.html"><button>ABOUT</button></a>
@@ -127,7 +143,7 @@ div.transbox {
             </div>
           </div>
           <div id="page-title">
-            <p> <span>Explore</span> the progammes we offer</p>
+            <p> Explore the progammes we offer<p>
         </div>
         <div id="programme-offered">
             <div>
