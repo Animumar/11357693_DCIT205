@@ -31,9 +31,9 @@ Stay updated on upcoming events, workshops, and seminars hosted by the Computer 
 
 ## Connect With Us
 
-- **Website:** [https://cs.ug.edu.gh](https://cs.ug.edu.gh)
-- **Email:** csinfo@ug.edu.gh
-- **Phone:** +233-XXX-XXXX
+
+- **Email:** dcs@ug.edu.gh
+- **Phone:**  +233 501 382 035
 
 ## How to Contribute
 
