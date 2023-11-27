@@ -45,7 +45,7 @@ body{
  }
  
  div.transbox {
-   border: 1px solid black;
+   border: 1px solid rgb(5, 5, 5);
    height: 100%;
    position: relative;
    bottom: 10px;
