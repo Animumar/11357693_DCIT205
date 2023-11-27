@@ -14,6 +14,7 @@ The Computer Science Department at the University of Ghana is a hub of innovatio
 - Bachelor of Science in Computer Science
 - Bachelor of Science in Information Technology
   
+  
 
 ### Graduate Programs
 
@@ -45,3 +46,4 @@ This website is open-source . Feel free to fork and customize it for your needs.
 
 ---
 
+*Disclaimer: This is a sample README and may need to be adjusted based on the actual structure and content of your website.*
