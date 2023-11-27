@@ -13,13 +13,13 @@ The Computer Science Department at the University of Ghana is a hub of innovatio
 
 - Bachelor of Science in Computer Science
 - Bachelor of Science in Information Technology
-- [Explore More](#)
+  
 
 ### Graduate Programs
 
 - Master of Science in Computer Science
 - PhD in Computer Science
-- [Learn More](#)
+
 
 ## Research and Innovation
 
@@ -31,9 +31,9 @@ Stay updated on upcoming events, workshops, and seminars hosted by the Computer 
 
 ## Connect With Us
 
-- **Website:** [https://cs.ug.edu.gh](https://cs.ug.edu.gh)
-- **Email:** csinfo@ug.edu.gh
-- **Phone:** +233-XXX-XXXX
+
+- **Email:** dcs@ug.edu.gh
+- **Phone:**  +233 501 382 035
 
 ## How to Contribute
 
@@ -41,8 +41,7 @@ We welcome contributions to our website! If you have information to share, wheth
 
 ## License
 
-This website is open-source and available under the [MIT License](LICENSE). Feel free to fork and customize it for your needs.
+This website is open-source . Feel free to fork and customize it for your needs.
 
 ---
 
-*Disclaimer: This is a sample README and may need to be adjusted based on the actual structure and content of your website.*
