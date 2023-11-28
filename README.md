@@ -1,49 +1,52 @@
 # DCIT_205_IA
-# University of Ghana Computer Science Department
+# Introduction and purpose of designing the Computer Science Department Website
 
-Welcome to the official website of the Computer Science Department at the University of Ghana! 🚀
+The website is created for the  computer science department , a comprehensive online platform designed to serve as a dynamic hub for students, faculty, and enthusiasts within the exciting realm of computer science. The ten-page website for the Computer Science Department is meticulously designed to serve as a central information hub for academic programs, faculty, research, and events. it aims to offer valuable insights, and inspire individuals within the dynamic field of computer science.
 
-## About Us
 
-The Computer Science Department at the University of Ghana is a hub of innovation, research, and academic excellence. Our mission is to provide students with a world-class education in computer science, preparing them for successful careers in technology and contributing to advancements in the field.
 
-## Explore Our Programs
+## Steps to clone and set up a project
 
-### Undergraduate Programs
+# Here are the steps to clone and set up a project:
 
-- Bachelor of Science in Computer Science
-- Bachelor of Science in Information Technology
+1.	Open your terminal or command prompt.
+2.	Navigate to the directory where you want to clone the project.
+3.	Copy the URL of the project repository you want to clone.
+4.	Type git clone followed by the URL you copied in step 3.
+5.	Press Enter to create your local clone.
+6.	Install any dependencies required by the project.
+7.	Run the project using the appropriate command.
+
+
+## Name and Student ID
+name: Muhammed Aminu Umar
+Student ID: 11357693
+
+### Screenshot of various pages
+
+![Alt text](homepageScreenshot.jpg)
+![Alt text](shortcourseScreenshot.jpg)
+![Alt text](undergrad_Screenshot.jpg)
+![Alt text](newsScreenshot.jpg)
+![Alt text](people_Screenshot.jpg)
+![Alt text](aboutScreenshot.jpg)
+![Alt text](admissionScreenshot.jpg)
+![Alt text](compssa_Screenshot.jpg)
+![Alt text](courses_screenshot.jpg)
+
+
+
+
   
   
 
-### Graduate Programs
+### What I learned from this project
 
-- Master of Science in Computer Science
-- PhD in Computer Science
-
-
-## Research and Innovation
-
-Our faculty and students engage in cutting-edge research across various domains of computer science. From artificial intelligence to cybersecurity, our research initiatives aim to address real-world challenges and push the boundaries of technology.
-
-## Events and Activities
-
-Stay updated on upcoming events, workshops, and seminars hosted by the Computer Science Department. Join us for hackathons, guest lectures, and networking opportunities.
-
-## Connect With Us
+From the project ,I have learned some html and css skills .Some of the things I learnt in html are the div , sub and sup tags and also the proper structuring of codes .I learnt a lot of css styles such as padding ,margin, background colors ,etc.I also learnt different ways of calling selectors to apply styles on them .Calling an id with # , calling a class with the . ,calling multiple classes or ids,etc .I have really learnt a lot from this project despite there are still more to learn.
 
 
-- **Email:** dcs@ug.edu.gh
-- **Phone:**  +233 501 382 035
 
-## How to Contribute
 
-We welcome contributions to our website! If you have information to share, whether it's about alumni achievements, research breakthroughs, or upcoming events, please feel free to submit a pull request.
 
-## License
 
-This website is open-source . Feel free to fork and customize it for your needs.
 
----
-
-*Disclaimer: This is a sample README and may need to be adjusted based on the actual structure and content of your website.*

@@ -29,6 +29,10 @@ body{
     justify-content:  center;
 
 }
+.dropdown a{
+    text-decoration: none;
+    color: black;
+}
 .dropdown {
     position: relative;
     display: inline-block;

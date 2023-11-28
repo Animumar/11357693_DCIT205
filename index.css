@@ -88,6 +88,10 @@ body{
     cursor: pointer;
 
  }
+ .dropdown a{
+   color: black;
+   text-decoration: none;
+ }
  #sidebar button:hover{
    text-decoration: underline;
   }
